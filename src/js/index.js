@@ -1,7 +1,7 @@
  $(".sideblack").hide();
  $(".sidewhite").animate({ left:0 }, 500);
 
-
+//npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch
 
 // document.querySelector(".open").addEventListener("click", function (e) {
 //   e.preventDefault();
