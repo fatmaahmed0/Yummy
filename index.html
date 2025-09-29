@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/output.css" />
-    <link rel="stylesheet" href="./src/css/all.min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
-      rel="stylesheet"
-    />
 
-    <title>Yummy</title>
-  </head>
-  <body class="bg-black">
-    <section>
-      <div class="w-[300px] relative  z-50 ">
-        <div class="sidewhite w-[64px] bg-white flex flex-col items-center py-6 px-2 text-black justify-between h-screen fixed top-0 left-[236px] ">
-          <img src="./src/image/logo.png" class="" alt="">
-         <i class="open fa-solid fa-bars text-4xl cursor-pointer"></i>
-         <div class="flex flex-col ">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/css/output.css" />
+  <link rel="stylesheet" href="./src/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+
+  <title>Yummy</title>
+</head>
+
+<body class="bg-black">
+  <section>
+    <div class="w-[300px] relative  z-50 ">
+      <div
+        class="sidewhite w-[64px] bg-white flex flex-col items-center py-6 px-2 text-black justify-between h-screen fixed top-0 left-[236px] ">
+        <img src="./src/image/logo.png" class="" alt="">
+        <div class="open">
+          <i class="fa-solid fa-bars text-4xl cursor-pointer"></i>
+        </div>
+        <div class="close hidden">
+          <i class="fa-solid fa-close text-4xl cursor-pointer"></i>
+        </div>
+        <div class="flex flex-col ">
           <i class="fa-solid fa-globe d-block pb-1"></i>
           <i class="fa-solid fa-share-nodes"></i>
         </div>
-        <div class="sideblack w-[236px] bg-black h-screen fixed top-0 left-[0px]  text-[#f9f6f6] p-6 flex flex-col justify-between ">
+        <div
+          class="sideblack w-[236px] bg-black h-screen fixed top-0 left-[0px]  text-[#f9f6f6] p-6 flex flex-col justify-between ">
           <div class="flex flex-col ">
             <a href="./search.html" class="cursor-pointer py-2 text-[16px]">Search</a>
             <a href="./category.html" class="cursor-pointer py-2 text-[16px]">Categories</a>
-            <a href="" class="cursor-pointer py-2 text-[16px]">Area</a>
-            <a href="" class="cursor-pointer py-2 text-[16px]">Ingredients</a>
-            <a href="" class="cursor-pointer py-2 text-[16px]">Contact Us</a>
+            <a href="Area.html" class="cursor-pointer py-2 text-[16px]">Area</a>
+            <a href="Ingredients.html" class="cursor-pointer py-2 text-[16px]">Ingredients</a>
+            <a href="contact_us.html" class="cursor-pointer py-2 text-[16px]">Contact Us</a>
 
           </div>
           <div class="pb-5">
@@ -40,30 +46,59 @@
             <h2>Copyright Â© 2019 All Rights Reserved.</h2>
           </div>
         </div>
-       </div>
       </div>
-      <div class="w-[86%] m-auto py-12">
-        <div class="grid grid-cols-4  ">
-          <div class="relative cursor-pointer group ">
-            <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl w-full mt-6 px-3 " alt="">
-            <div class="light absolute top-0 bottom-0 right-0 left-0 translate-y-full bg-[#f9f6f6ca] flex items-center p-2 text-black  rounded-lg mt-6 mx-3 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-90 ">
-              <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
-            </div>
+    </div>
+    <div class="w-[86%] m-auto py-12">
+      <div class="grid grid-cols-12 ">
+        <div class="relative col-span-3 mt-6 px-3 rounded-lg cursor-pointer group overflow-hidden ">
+          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-lg w-full  " alt="">
+          <div
+            class="light absolute top-[150%] bottom-0 right-0 left-0  bg-[#f9f6f6ca] flex items-center p-2 text-black  group-hover:rounded-lg mx-3 transition-all duration-[800ms] group-hover:top-0">
+            <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
           </div>
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
-          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-2xl mt-6 px-3" alt="">
+        </div>
+        <div class="relative col-span-3 mt-6 px-3 rounded-lg cursor-pointer group overflow-hidden ">
+          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-lg w-full  " alt="">
+          <div
+            class="light absolute top-[150%] bottom-0 right-0 left-0  bg-[#f9f6f6ca] flex items-center p-2 text-black  group-hover:rounded-lg mx-3 transition-all duration-[800ms] group-hover:top-0">
+            <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
+          </div>
+        </div>
+        <div class="relative col-span-3 mt-6 px-3 rounded-lg cursor-pointer group overflow-hidden ">
+          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-lg w-full  " alt="">
+          <div
+            class="light absolute top-[150%] bottom-0 right-0 left-0  bg-[#f9f6f6ca] flex items-center p-2 text-black  group-hover:rounded-lg mx-3 transition-all duration-[800ms] group-hover:top-0">
+            <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
+          </div>
+        </div>
+        <div class="relative col-span-3 mt-6 px-3 rounded-lg cursor-pointer group overflow-hidden ">
+          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-lg w-full  " alt="">
+          <div
+            class="light absolute top-[150%] bottom-0 right-0 left-0  bg-[#f9f6f6ca] flex items-center p-2 text-black  group-hover:rounded-lg mx-3 transition-all duration-[800ms] group-hover:top-0">
+            <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
+          </div>
+        </div>
+        <div class="relative col-span-3 mt-6 px-3 rounded-lg cursor-pointer group overflow-hidden ">
+          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-lg w-full  " alt="">
+          <div
+            class="light absolute top-[150%] bottom-0 right-0 left-0  bg-[#f9f6f6ca] flex items-center p-2 text-black  group-hover:rounded-lg mx-3 transition-all duration-[800ms] group-hover:top-0">
+            <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
+          </div>
+        </div>
+        <div class="relative col-span-3 mt-6 px-3 rounded-lg cursor-pointer group overflow-hidden ">
+          <img src="./src/image/xd9aj21740432378.jpg" class="rounded-lg w-full  " alt="">
+          <div
+            class="light absolute top-[150%] bottom-0 right-0 left-0  bg-[#f9f6f6ca] flex items-center p-2 text-black  group-hover:rounded-lg mx-3 transition-all duration-[800ms] group-hover:top-0">
+            <h3 class="pb-2  text-[28px] font-medium">Migas</h3>
+          </div>
         </div>
       </div>
-      
-    </section>
-    <script src="./src/js/jquery-3.7.1.min.js"></script>
-    <script src="./src/js/index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-  </body>
+    </div>
+
+  </section>
+  <script src="./src/js/jquery-3.7.1.min.js"></script>
+  <script src="./src/js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
 </html>
